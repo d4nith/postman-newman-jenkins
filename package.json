@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "api-tests-production": "newman run test/Trello.postman_collection.json"
+    "api-tests-production": "newman run tests/Trello.postman_collection.json"
   },
   "author": "David Th",
   "dependencies": {
