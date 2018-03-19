@@ -375,8 +375,8 @@
 						"id": "75a469ff-d70a-4297-8709-c223da190411",
 						"type": "text/javascript",
 						"exec": [
-							"pm.test(\"Status code is 200\", function () {",
-							"    pm.response.to.have.status(200);",
+							"pm.test(\"Status code is 300\", function () {",
+							"    pm.response.to.have.status(300);",
 							"});",
 							"",
 							"pm.test(\"_value should be null\", function () {",
