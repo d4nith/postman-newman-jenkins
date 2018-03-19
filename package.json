@@ -8,7 +8,7 @@
   "scripts": {
     "api-tests-production": "newman run tests/Trello.postman_collection.json -e tests/Trello_API.postman_environment.json"
   },
-  "author": "David Th",
+  "author": "David",
   "dependencies": {
     "newman": "^3.9.3"
   }
